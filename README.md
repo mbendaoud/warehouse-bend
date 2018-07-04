@@ -1,5 +1,7 @@
 # bendaoud
-#starting project warehouse manager webapp
+# mounain, you should install also Git to use gitHub  :-)
+# starting project warehouse manager webapp
+
 # Registration and Login Example with Spring MVC 4, Spring Security, Spring Data JPA, XML Configuration, Maven, JSP, and MySQL.
 
 ## Guide
@@ -18,5 +20,3 @@ https://hellokoding.com/registration-and-login-example-with-spring-xml-configura
 - JSP
 - MySQL
 
-## Run
-```mvn jetty:run```
