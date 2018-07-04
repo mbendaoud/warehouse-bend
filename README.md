@@ -9,7 +9,7 @@ https://hellokoding.com/registration-and-login-example-with-spring-xml-configura
 - JDK 1.8 or later
 - Maven 3 or later
 - MySQL 5.6 or later
-
+- server tomcat
 ## Stack
 - Spring MVC
 - Spring Security
