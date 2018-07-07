@@ -20,3 +20,12 @@ https://hellokoding.com/registration-and-login-example-with-spring-xml-configura
 - JSP
 - MySQL
 
+
+# mounaim, 07-07-2018 to start tomcat deployment and run tomcat server do following
+
+1- mvn clean install
+2- mvn mvn tomcat7:run-war
+3- go to localhost:8080
+
+
+
