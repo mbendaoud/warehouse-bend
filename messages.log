@@ -1,0 +1,14 @@
+==>17-07-2018 00h12 message de m'barek destination de mounaim
+
+j'ai reussi a faire fonctionner la creation des table automatiquement depuis le model test ModelTestORM.java, il a suffit de l'activer en ajoutant
+dans les  properties du bean entityManagerFactory la ligne suivante :<prop key="hibernate.hbm2ddl.auto">create</prop>
+
+avec cette configuration , l'ORM spring hibernate drop lezs tables et les recreer de nouveaun , donc il faut laisser cette ligne que pour creer
+les tables a aprtir des model en oneshot et puis la supprimer pour ne pas ecraser perdre les donnees a chaque demarrage du serveur
+
+donc voila tu peux tamuser et tester la creation de tables despuis les models java ,
+
+tiens moi au courant,
+
+ah oui avant  d'oublier, ajoute le pluguin "DB navigator" dans ton intellij, il est performant pour manipuler la base de donnees avec aisance
+
