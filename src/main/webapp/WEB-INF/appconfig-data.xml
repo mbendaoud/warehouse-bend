@@ -30,9 +30,6 @@
             <props>
                 <prop key="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</prop>
                 <prop key="hibernate.show_sql">true</prop>
-                <!-- M'Barek moulain, cest cette ligne suicante que jai du ajouter pour permettre a hibernate de creer les tables
-                depuis les models-->
-                <prop key="hibernate.hbm2ddl.auto">update</prop>
             </props>
         </property>
     </bean>
