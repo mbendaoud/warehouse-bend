@@ -1,13 +1,12 @@
-package com.hellokoding.account.service;
+package com.warehouse.manager.service;
 
-import com.hellokoding.account.model.*;
-import com.hellokoding.account.repository.CategorieRepository;
-import com.hellokoding.account.repository.CommandeRepository;
-import com.hellokoding.account.repository.ProduitRepository;
+import com.warehouse.manager.repository.CategorieRepository;
+import com.warehouse.manager.repository.CommandeRepository;
+import com.warehouse.manager.repository.ProduitRepository;
+import com.warehouse.manager.model.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import javax.management.Query;
 import java.util.List;
 @Service
 public class BoutiqueDaoImp implements IBoutiqueDao {

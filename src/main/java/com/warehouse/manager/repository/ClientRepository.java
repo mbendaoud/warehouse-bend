@@ -1,7 +1,7 @@
-package com.hellokoding.account.repository;
+package com.warehouse.manager.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import com.hellokoding.account.model.Client;
+import com.warehouse.manager.model.Client;
 
 public interface ClientRepository extends JpaRepository<Client, Long> {
 }

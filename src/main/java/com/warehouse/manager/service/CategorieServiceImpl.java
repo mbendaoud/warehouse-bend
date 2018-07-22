@@ -1,11 +1,9 @@
-package com.hellokoding.account.service;
+package com.warehouse.manager.service;
 
-import com.hellokoding.account.model.Categorie;
-import com.hellokoding.account.repository.CategorieRepository;
+import com.warehouse.manager.model.Categorie;
+import com.warehouse.manager.repository.CategorieRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import javax.management.Query;
 
 @Service
 public class CategorieServiceImpl implements CategorieService {

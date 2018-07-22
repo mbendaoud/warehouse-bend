@@ -1,8 +1,7 @@
-package com.hellokoding.account.service;
+package com.warehouse.manager.service;
 
-import com.hellokoding.account.model.*;
+import com.warehouse.manager.model.*;
 
-import javax.validation.constraints.Max;
 import java.util.List;
 
 public interface IBoutiqueDao {
@@ -12,7 +11,7 @@ public interface IBoutiqueDao {
     public void supprimerCategorie(Long idCat);
     public void modifierCategorie(Categorie c);
 
-    public Long ajouterProduit(Produit p,Long idCat);
+    public Long ajouterProduit(Produit p, Long idCat);
     public List<Produit> listProduits();
     public List<Produit> produitsParMotCle(String mc);
     public List<Produit> produitSelectionnes();

@@ -1,9 +1,8 @@
-package com.hellokoding.account.model;
+package com.warehouse.manager.model;
 
 
 
 import org.hibernate.validator.constraints.NotEmpty;
-import org.springframework.stereotype.Service;
 
 import javax.persistence.*;
 import javax.validation.constraints.Size;

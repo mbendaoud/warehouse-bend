@@ -1,7 +1,7 @@
-package com.hellokoding.account.web;
+package com.warehouse.manager.web;
 
-import com.hellokoding.account.model.Categorie;
-import com.hellokoding.account.service.IBoutiqueDao;
+import com.warehouse.manager.model.Categorie;
+import com.warehouse.manager.service.IBoutiqueDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

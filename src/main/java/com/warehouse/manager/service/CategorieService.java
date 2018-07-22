@@ -1,6 +1,6 @@
-package com.hellokoding.account.service;
+package com.warehouse.manager.service;
 
-import com.hellokoding.account.model.Categorie;
+import com.warehouse.manager.model.Categorie;
 
 public interface CategorieService {
    void  save(Categorie c);
