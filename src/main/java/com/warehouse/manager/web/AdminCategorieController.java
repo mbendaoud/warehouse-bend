@@ -16,9 +16,8 @@ public class AdminCategorieController {
 
     @RequestMapping (value = "/index")
     public String index(Model model){
-model.addAttribute("categorie",new Categorie());
-model.addAttribute("categories",iBoutiqueDao.listCategories());
-
+        model.addAttribute("categorie",new Categorie());
+        model.addAttribute("categories",iBoutiqueDao.listCategories());
         return "categories";
     }
 

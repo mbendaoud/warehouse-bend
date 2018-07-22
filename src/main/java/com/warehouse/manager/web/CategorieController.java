@@ -13,7 +13,6 @@ public class CategorieController {
     private IBoutiqueDao iBoutiqueDao;
     @RequestMapping("/Categories")
     public Iterable<Produit> getProduits(){
-
         return iBoutiqueDao.listProduits();
     }
 }
