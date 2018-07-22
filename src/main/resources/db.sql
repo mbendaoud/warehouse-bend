@@ -1,5 +1,4 @@
-CREATE DATABASE  IF NOT EXISTS `warehouse`;
-USE `warehouse`;
+
 --
 -- Table structure for table `role`
 --
