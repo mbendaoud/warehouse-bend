@@ -1,4 +1,4 @@
-package com.hellokoding.account.service;
+package com.warehouse.manager.service;
 
 public interface SecurityService {
     String findLoggedInUsername();

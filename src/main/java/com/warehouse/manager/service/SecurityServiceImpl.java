@@ -1,4 +1,4 @@
-package com.hellokoding.account.service;
+package com.warehouse.manager.service;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

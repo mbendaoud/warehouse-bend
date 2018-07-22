@@ -1,9 +1,9 @@
-package com.hellokoding.account.web;
+package com.warehouse.manager.web;
 
-import com.hellokoding.account.model.User;
-import com.hellokoding.account.service.SecurityService;
-import com.hellokoding.account.service.UserService;
-import com.hellokoding.account.validator.UserValidator;
+import com.warehouse.manager.model.User;
+import com.warehouse.manager.service.SecurityService;
+import com.warehouse.manager.service.UserService;
+import com.warehouse.manager.validator.UserValidator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

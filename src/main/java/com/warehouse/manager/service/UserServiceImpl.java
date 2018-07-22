@@ -1,8 +1,8 @@
-package com.hellokoding.account.service;
+package com.warehouse.manager.service;
 
-import com.hellokoding.account.model.User;
-import com.hellokoding.account.repository.RoleRepository;
-import com.hellokoding.account.repository.UserRepository;
+import com.warehouse.manager.model.User;
+import com.warehouse.manager.repository.RoleRepository;
+import com.warehouse.manager.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;

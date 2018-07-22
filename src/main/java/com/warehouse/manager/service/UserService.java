@@ -1,6 +1,6 @@
-package com.hellokoding.account.service;
+package com.warehouse.manager.service;
 
-import com.hellokoding.account.model.User;
+import com.warehouse.manager.model.User;
 
 public interface UserService {
     void save(User user);

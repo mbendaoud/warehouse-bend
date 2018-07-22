@@ -1,8 +1,8 @@
-package com.hellokoding.account.service;
+package com.warehouse.manager.service;
 
-import com.hellokoding.account.model.Role;
-import com.hellokoding.account.model.User;
-import com.hellokoding.account.repository.UserRepository;
+import com.warehouse.manager.model.Role;
+import com.warehouse.manager.model.User;
+import com.warehouse.manager.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

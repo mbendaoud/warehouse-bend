@@ -1,6 +1,6 @@
-package com.hellokoding.account.repository;
+package com.warehouse.manager.repository;
 
-import com.hellokoding.account.model.User;
+import com.warehouse.manager.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserRepository extends JpaRepository<User, Long> {
