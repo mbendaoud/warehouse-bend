@@ -1,4 +1,4 @@
-package com.warehouse.manager.service;
+package com.warehouse.manager.service.categorie;
 
 import com.warehouse.manager.model.Categorie;
 import com.warehouse.manager.repository.CategorieRepository;

@@ -1,4 +1,4 @@
-package com.warehouse.manager.service;
+package com.warehouse.manager.service.product;
 
 import com.warehouse.manager.model.Produit;
 import org.springframework.stereotype.Service;

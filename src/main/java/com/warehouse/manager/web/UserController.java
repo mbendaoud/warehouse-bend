@@ -1,8 +1,8 @@
 package com.warehouse.manager.web;
 
 import com.warehouse.manager.model.User;
-import com.warehouse.manager.service.SecurityService;
-import com.warehouse.manager.service.UserService;
+import com.warehouse.manager.service.security.authentification.SecurityService;
+import com.warehouse.manager.service.user.UserService;
 import com.warehouse.manager.validator.UserValidator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -42,7 +42,7 @@ public class UserController {
 
         securityService.autologin(userForm.getUsername(), userForm.getPasswordConfirm());
 
-        return "redirect:/welcome";
+        return "redirect:/welcome.jsp";
     }
 
     @RequestMapping(value = "/login", method = RequestMethod.GET)

@@ -1,4 +1,4 @@
-package com.warehouse.manager.service;
+package com.warehouse.manager.service.user;
 
 import com.warehouse.manager.model.User;
 import com.warehouse.manager.repository.RoleRepository;
@@ -7,7 +7,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import javax.management.Query;
 import java.util.HashSet;
 
 @Service

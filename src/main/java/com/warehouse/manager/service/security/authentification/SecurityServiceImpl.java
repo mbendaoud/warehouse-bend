@@ -1,4 +1,4 @@
-package com.warehouse.manager.service;
+package com.warehouse.manager.service.security.authentification;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

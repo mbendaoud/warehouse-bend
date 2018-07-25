@@ -1,4 +1,4 @@
-package com.warehouse.manager.service;
+package com.warehouse.manager.service.security.authentification;
 
 import com.warehouse.manager.model.Role;
 import com.warehouse.manager.model.User;

@@ -1,4 +1,4 @@
-package com.warehouse.manager.service;
+package com.warehouse.manager.service.boutique;
 
 import com.warehouse.manager.model.*;
 

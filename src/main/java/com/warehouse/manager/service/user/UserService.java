@@ -1,4 +1,4 @@
-package com.warehouse.manager.service;
+package com.warehouse.manager.service.user;
 
 import com.warehouse.manager.model.User;
 

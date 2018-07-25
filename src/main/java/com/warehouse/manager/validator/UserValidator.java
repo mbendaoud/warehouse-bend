@@ -1,7 +1,7 @@
 package com.warehouse.manager.validator;
 
 import com.warehouse.manager.model.User;
-import com.warehouse.manager.service.UserService;
+import com.warehouse.manager.service.user.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;

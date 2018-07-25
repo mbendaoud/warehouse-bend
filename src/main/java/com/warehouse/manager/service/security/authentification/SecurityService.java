@@ -1,4 +1,4 @@
-package com.warehouse.manager.service;
+package com.warehouse.manager.service.security.authentification;
 
 public interface SecurityService {
     String findLoggedInUsername();
