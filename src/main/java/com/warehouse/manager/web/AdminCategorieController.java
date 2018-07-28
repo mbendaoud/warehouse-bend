@@ -15,7 +15,7 @@ import org.springframework.web.servlet.ModelAndView;
 import javax.validation.Valid;
 
 @Controller
-@RequestMapping(value = "/adminCat")
+@RequestMapping(value = "/categories")
 public class AdminCategorieController {
 
     @Autowired
@@ -41,6 +41,6 @@ public class AdminCategorieController {
             return "error";
         }
         iBoutiqueDao.ajouterCategorie(category);
-        return "redirect:/adminCat/list";
+        return "redirect:/categories/list";
     }
 }

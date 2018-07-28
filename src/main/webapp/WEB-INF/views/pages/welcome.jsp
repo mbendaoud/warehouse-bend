@@ -1,0 +1,1 @@
+welcome to the warehouse management application

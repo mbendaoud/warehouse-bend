@@ -1,1 +1,0 @@
-<div>footer content</div>
