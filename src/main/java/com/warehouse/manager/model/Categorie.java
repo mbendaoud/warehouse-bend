@@ -11,15 +11,15 @@ import java.util.Collection;
 public class Categorie implements Serializable  {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-
     private long idCategorie;
+
     @NotEmpty
-
     private String nomCategorie;
-    private String description;
 
+    private String description;
     private String photo;
     private String nomPhoto;
+
     @OneToMany(mappedBy = "categorie",fetch = FetchType.EAGER)
     private Collection<Produit> produits;
 
