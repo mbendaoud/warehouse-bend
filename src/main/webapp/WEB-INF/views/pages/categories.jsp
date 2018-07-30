@@ -3,25 +3,35 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 
 <div class="container" id="listCat">
-<table>
-      <TH>Id</th>
-      <TH>Name</th>
-      <TH>description</th>
-      <TH>photo</th>
-      <TH>nomPhoto</th>
+<table id="listCategory">
+
+    <thead>
+    <tr>
+      <th>Id</th>
+      <th>Name</th>
+      <th>description</th>
+      <th>photo</th>
+      <th>nomPhoto</th>
+    </tr>
+    </thead>
+
+    <tbody>
+
       <c:forEach items="${categories}" var="current">
         <tr>
-          <td><c:out value="${current.idCategorie}" /><td>
-          <td><c:out value="${current.nomCategorie}" /><td>
-          <td><c:out value="${current.description}" /><td>
-          <td><c:out value="${current.photo}" /><td>
-          <td><c:out value="${current.nomPhoto}" /><td>
+          <td><c:out value="${current.idCategorie}" />  </td>
+          <td><c:out value="${current.nomCategorie}" /> </td>
+          <td><c:out value="${current.description}" />  </td>
+          <td><c:out value="${current.photo}" />        </td>
+          <td><c:out value="${current.nomPhoto}" />     </td>
         </tr>
       </c:forEach>
-    </table>
-  </body>
+    </tbody>
+
+</table>
 </div>
 
+<!--
 <div class="container" id="formCat">
        <h3>Saisie de categorie</h3>
            <form:form method="POST"
@@ -42,3 +52,13 @@
            </form:form>
 
 </div>
+
+-->
+
+
+<script type="text/javascript">
+    $(document).ready( function () {
+        $('#listCategory').DataTable();
+    } );
+</script>
+
