@@ -1,3 +1,3 @@
 <div>
-  Version warehouse-bendaoud-1.0-SNAPSHOT.war
+  Version warehouse-bendaoud-2.0-SNAPSHOT
 </div>
