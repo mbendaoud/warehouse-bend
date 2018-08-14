@@ -18,7 +18,8 @@
       <th>Name</th>
       <th>description</th>
       <th>photo</th>
-      <th>nomPhoto</th>
+      <th>name photo</th>
+      <th>delete</th>
     </tr>
     </thead>
 
@@ -31,11 +32,15 @@
           <td><c:out value="${current.description}" />  </td>
           <td><c:out value="${current.photo}" />        </td>
           <td><c:out value="${current.nomPhoto}" />     </td>
+          <td> <a href="${pageContext.request.contextPath}/categories/deleteCategory?id=${current.idCategorie}">
+          <img class="icone" src="${contextPath}/resources/img/delete.png"/></a></td>
         </tr>
       </c:forEach>
+
     </tbody>
 
 </table>
+
 </div>
 
 <div id="addCat">

@@ -89,6 +89,10 @@ body{
 	float:left;
 }
 
+.icone{
+	width: 5%;
+}
+
 #site-content {
     width: 80%;
     height: 70%;
