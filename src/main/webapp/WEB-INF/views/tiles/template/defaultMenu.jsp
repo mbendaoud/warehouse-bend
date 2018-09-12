@@ -26,7 +26,7 @@
 <nav>
 	<ul id="menu">
 	   <li><a href="${pageContext.request.contextPath}/">Home</a></li>
-       <li><a href="${pageContext.request.contextPath}/products">Products</a></li>
+       <li><a href="${pageContext.request.contextPath}/products/list">Products</a></li>
        <li><a href="${pageContext.request.contextPath}/categories/list">Categories</a></li>
        <li><a href="${pageContext.request.contextPath}/clients/list">Clients</a></li>
        <li><a href="${pageContext.request.contextPath}/suppliers/list">Suppliers</a></li>

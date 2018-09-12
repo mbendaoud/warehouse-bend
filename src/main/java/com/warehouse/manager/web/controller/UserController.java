@@ -1,4 +1,4 @@
-package com.warehouse.manager.web;
+package com.warehouse.manager.web.controller;
 
 import com.warehouse.manager.model.User;
 import com.warehouse.manager.service.security.authentification.SecurityService;

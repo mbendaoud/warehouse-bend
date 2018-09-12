@@ -1,4 +1,4 @@
-package com.warehouse.manager.web;
+package com.warehouse.manager.web.controller;
 
 import com.warehouse.manager.model.Categorie;
 import com.warehouse.manager.service.boutique.IBoutiqueDao;
@@ -17,7 +17,7 @@ import javax.validation.Valid;
 
 @Controller
 @RequestMapping(value = "/categories")
-public class AdminCategorieController {
+public class CategorieController {
 
     @Autowired
     IBoutiqueDao iBoutiqueDao;

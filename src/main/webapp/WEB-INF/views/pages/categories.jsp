@@ -6,7 +6,6 @@
   <ul>
     <li><a href="#listCat"><span>Categories list</span></a></li>
     <li><a href="#addCat"><span>Add Category</span></a></li>
-    <li><a href="#deletecat"><span>Delete category</span></a></li>
   </ul>
 
 <div id="listCat">
@@ -72,9 +71,6 @@
 
 </div>
 
-<div id="deletecat">
-Delete a category
-</div>
 
 </div>
 
